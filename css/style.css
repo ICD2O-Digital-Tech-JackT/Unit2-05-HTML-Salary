@@ -1,4 +1,11 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
-*/
+html {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  background-color: #ffae00;
+  padding: 40px;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}

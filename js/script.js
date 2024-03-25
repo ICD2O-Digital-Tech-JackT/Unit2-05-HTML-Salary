@@ -1,5 +1,10 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
-//
-// Created by: Mr. Coxall
-// Created on: Sep 2020
-// This file contains the JS functions for index.html
+function CalculateSalary(){
+  let Wage = document.getElementById("Wage").value;
+  let Hours = document.getElementById("Hours").value;
+  let TaxPercent = 15
+  let Salary = (Wage * Hours)-((Wage * Hours)*TaxPercent/100);
+  //Make sure that information is valid before Calculating
+  if (Salary>0){
+    document.getElementById("Result").innerHTML = "Your salary is: " + Salary + "$";
+  }
+}
